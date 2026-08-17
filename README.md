@@ -68,8 +68,6 @@ $fauzein = [
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-
 <!-- TECH STACK -->
 ## `>` Tech Stack & Currently I'm Using
 
@@ -99,9 +97,6 @@ $fauzein = [
     </td>
   </tr>
 </table>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-
 
 <!-- SDLC DIAGRAM -->
 ## `>` How I Build Software
