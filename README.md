@@ -1,7 +1,7 @@
 <!-- BANNER  -->
 <p align="center">
   <img
-    src="assets/banner.gif"
+    src="https://raw.githubusercontent.com/fauzeinmw2/fauzeinmw2/main/assets/banner.gif"
     width="480"
     alt="software engineer coding on two screens (code & UML) against a Rumah Gadang gonjong roof"
   />
@@ -9,7 +9,7 @@
 
 <h1 align="center">
   Hello World!, I'm Fauzein
-  <img src="assets/wave.gif" width="32" height="32" alt="waving hand" />
+  <img src="https://raw.githubusercontent.com/fauzeinmw2/fauzeinmw2/main/assets/wave.gif" width="32" height="32" alt="waving hand" />
 </h1>
 
 <p align="center">
