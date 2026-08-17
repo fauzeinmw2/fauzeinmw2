@@ -46,7 +46,7 @@ $fauzein = [
     'role'      => 'Backend Developer',
     'education' => 'Bachelor of Software Engineering',
     'location'  => 'Indonesia',
-    'interest'  => ['Backend Developer', 'System Analysis', 'DevOps', 'Software Testing],
+    'interest'  => ['Backend Developer', 'System Analysis', 'DevOps', 'Software Testing'],
 ];
 ```
 
