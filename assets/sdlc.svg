@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 250" width="1040" height="250" role="img" aria-label="SDLC flow: Analyze, Design, Develop, Test, Deploy, with a feedback loop back to Analyze">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4299e1"/>
+    </marker>
+    <marker id="arrowDash" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#63b3ed"/>
+    </marker>
+    <style>
+      .t  { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+      .ttl { font-size: 14px; font-weight: 700; letter-spacing: 1.2px; fill: #ffffff; }
+      .sub { font-size: 10.5px; fill: #cbd8e8; }
+      .emo { font-size: 18px; }
+      .loop { font-size: 11px; fill: #63b3ed; letter-spacing: .5px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="250" rx="12" fill="#0f172a"/>
+
+  <!-- ANALYZE -->
+  <rect x="25" y="40" width="170" height="110" rx="10" fill="#1e3a5f" stroke="#4299e1" stroke-width="2"/>
+  <text class="t emo" x="110" y="72" text-anchor="middle">&#128269;</text>
+  <text class="t ttl" x="110" y="97" text-anchor="middle">ANALYZE</text>
+  <text class="t sub" x="110" y="117" text-anchor="middle">requirement</text>
+  <text class="t sub" x="110" y="132" text-anchor="middle">&amp; user needs</text>
+
+  <!-- DESIGN -->
+  <rect x="230" y="40" width="170" height="110" rx="10" fill="#22456b" stroke="#4299e1" stroke-width="2"/>
+  <text class="t emo" x="315" y="72" text-anchor="middle">&#128208;</text>
+  <text class="t ttl" x="315" y="97" text-anchor="middle">DESIGN</text>
+  <text class="t sub" x="315" y="117" text-anchor="middle">architecture</text>
+  <text class="t sub" x="315" y="132" text-anchor="middle">&amp; software modeling</text>
+
+  <!-- DEVELOP -->
+  <rect x="435" y="40" width="170" height="110" rx="10" fill="#2b6cb0" stroke="#4299e1" stroke-width="2"/>
+  <text class="t emo" x="520" y="72" text-anchor="middle">&#9881;&#65039;</text>
+  <text class="t ttl" x="520" y="97" text-anchor="middle">DEVELOP</text>
+  <text class="t sub" x="520" y="117" text-anchor="middle">clean</text>
+  <text class="t sub" x="520" y="132" text-anchor="middle">modular code</text>
+
+  <!-- TEST -->
+  <rect x="640" y="40" width="170" height="110" rx="10" fill="#3182ce" stroke="#4299e1" stroke-width="2"/>
+  <text class="t emo" x="725" y="72" text-anchor="middle">&#129514;</text>
+  <text class="t ttl" x="725" y="97" text-anchor="middle">TEST</text>
+  <text class="t sub" x="725" y="117" text-anchor="middle">validation</text>
+  <text class="t sub" x="725" y="132" text-anchor="middle">&amp; review</text>
+
+  <!-- DEPLOY -->
+  <rect x="845" y="40" width="170" height="110" rx="10" fill="#4299e1" stroke="#63b3ed" stroke-width="2"/>
+  <text class="t emo" x="930" y="72" text-anchor="middle">&#128640;</text>
+  <text class="t ttl" x="930" y="97" text-anchor="middle">DEPLOY</text>
+  <text class="t sub" x="930" y="117" text-anchor="middle" fill="#eaf4fd">release</text>
+  <text class="t sub" x="930" y="132" text-anchor="middle" fill="#eaf4fd">&amp; monitor</text>
+
+  <!-- forward arrows -->
+  <line x1="199" y1="95" x2="222" y2="95" stroke="#4299e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="404" y1="95" x2="427" y2="95" stroke="#4299e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="609" y1="95" x2="632" y2="95" stroke="#4299e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="814" y1="95" x2="837" y2="95" stroke="#4299e1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- feedback loop -->
+  <path d="M 930 152 V 200 Q 930 214 916 214 H 124 Q 110 214 110 200 V 156"
+        fill="none" stroke="#63b3ed" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowDash)"/>
+  <rect x="465" y="204" width="110" height="18" rx="4" fill="#0f172a"/>
+  <text class="t loop" x="520" y="217" text-anchor="middle">feedback loop</text>
+</svg>

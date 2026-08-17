@@ -1,7 +1,7 @@
 <!-- BANNER  -->
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/fauzeinmw2/fauzeinmw2/main/assets/banner.gif"
+    src="./assets/banner.gif"
     width="480"
     alt="software engineer coding on two screens (code & UML) against a Rumah Gadang gonjong roof"
   />
@@ -9,7 +9,7 @@
 
 <h1 align="center">
   Hello World!, I'm Fauzein
-  <img src="https://raw.githubusercontent.com/fauzeinmw2/fauzeinmw2/main/assets/wave.gif" width="32" height="32" alt="waving hand" />
+  <img src="./assets/wave.gif" width="32" height="32" alt="waving hand" />
 </h1>
 
 <p align="center">
@@ -101,24 +101,13 @@ $fauzein = [
 <!-- SDLC DIAGRAM -->
 ## `>` How I Build Software
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1e3a5f','primaryTextColor':'#ffffff','primaryBorderColor':'#4299e1','lineColor':'#4299e1','secondaryColor':'#2b6cb0','tertiaryColor':'#0f172a','fontFamily':'JetBrains Mono, monospace','fontSize':'14px'}}}%%
-flowchart LR
-    A["🔍 ANALYZE<br/><small>requirement<br/>&amp; user needs</small>"]
-    B["📐 DESIGN<br/><small>architecture<br/>&amp; software modeling</small>"]
-    C["⚙️ DEVELOP<br/><small>clean<br/>modular code</small>"]
-    D["🧪 TEST<br/><small>validation<br/>&amp; review</small>"]
-    E["🚀 DEPLOY<br/><small>release<br/>&amp; monitor</small>"]
-
-    A --> B --> C --> D --> E
-    E -. "feedback loop" .-> A
-
-    style A fill:#1e3a5f,stroke:#4299e1,stroke-width:2px,color:#fff
-    style B fill:#22456b,stroke:#4299e1,stroke-width:2px,color:#fff
-    style C fill:#2b6cb0,stroke:#4299e1,stroke-width:2px,color:#fff
-    style D fill:#3182ce,stroke:#4299e1,stroke-width:2px,color:#fff
-    style E fill:#4299e1,stroke:#63b3ed,stroke-width:2px,color:#fff
-```
+<p align="center">
+  <img
+    src="./assets/sdlc.svg"
+    width="100%"
+    alt="SDLC flow: Analyze, Design, Develop, Test, Deploy, with a feedback loop back to Analyze"
+  />
+</p>
 
 <table>
   <tr>
