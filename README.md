@@ -141,6 +141,6 @@ flowchart LR
 <div align="center">
 
 <sub><i>"From a software process perspective, <br> requirements engineering is a major software engineering action <br> that begins during the communication activity and continues into the modeling activity"</i></sub><br />
-<sub><b>— Roger S. Pressman</b>, <i>Software Engineering: A Practitioner's Approach</i></sub>
+<sub><b>— Roger S. Pressman</b>, <i>Software Engineering: A Practitioner's Approach.</i></sub>
 
 </div>
